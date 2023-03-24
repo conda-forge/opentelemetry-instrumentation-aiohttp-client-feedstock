@@ -1,11 +1,11 @@
-About opentelemetry-instrumentation-aiohttp-client
-==================================================
+About opentelemetry-instrumentation-aiohttp-client-feedstock
+============================================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-aiohttp-client-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-aiohttp-client
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/opentelemetry-instrumentation-aiohttp-client-feedstock/blob/main/LICENSE.txt)
 
 Summary: OpenTelemetry aiohttp client instrumentation
 
