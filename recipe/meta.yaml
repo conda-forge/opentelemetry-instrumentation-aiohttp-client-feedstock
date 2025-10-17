@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-aiohttp-client" %}
-{% set version = "0.58b0" %}
+{% set version = "0.59b0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_aiohttp_client-{{ version }}.tar.gz
-  sha256: aab610f90a1be67ae66d3781bcad2b484774f043f73e8519156ca04d05019b2a
+  sha256: 665ee520f2fb5f44d6d600918eb7bbd2c29b355e0d0deda49991db857adee51f
 
 build:
   noarch: python
@@ -23,9 +23,9 @@ requirements:
     - python >={{ python_min }}
     - aiohttp ~=3.0
     - opentelemetry-api ~=1.12
-    - opentelemetry-instrumentation ==0.58b0
-    - opentelemetry-semantic-conventions ==0.58b0
-    - opentelemetry-util-http ==0.58b0
+    - opentelemetry-instrumentation ==0.59b0
+    - opentelemetry-semantic-conventions ==0.59b0
+    - opentelemetry-util-http ==0.59b0
     - wrapt <2.0.0,>=1.0.0
     # - opentelemetry-instrumentation-aiohttp-client 
     # - opentelemetry-instrumentation-aiohttp-client 
